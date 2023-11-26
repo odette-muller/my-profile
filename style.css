@@ -1,0 +1,100 @@
+body {
+  background-color: #FBF9F7;
+  color: #000000;
+  font-family: Sofia Sans Semi Condensed;
+  font-size: 17px;
+}
+
+h1, h2 {
+  font-family: Roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #909090;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #5C5470;
+}
+
+a:hover {
+  color: #909090;
+}
+
+/* Custom design with class (99% of the time) */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+.card-white {
+  background: #FFFFFF;
+  padding: 40px;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-black {background-color: #F4F4F2;
+  color: black;
+  padding: 15px 20px;
+}
+.btn-black:hover {
+  background-color: #909090;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #F4F4F2;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color: #909090;
+}
+/* Design adjustments using id (1% of the time) */
+#introduction p{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
